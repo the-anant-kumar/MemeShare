@@ -60,7 +60,7 @@ class MainActivity : AppCompatActivity() {
                 }).into(memeImageView)
             },
             { error ->
-                Toast.makeText(this, "Something Went Wrong", Toast.LENGTH_LONG).show()
+                Toast.makeText(this, "Something Went Really Wrong", Toast.LENGTH_LONG).show()
             }
         )
 
